@@ -1,0 +1,172 @@
+@font-face {
+	font-family: CGF_Locust_Resistance;
+	scr: url(fonts/7fonts.ru_CGFLocustResistance.ttf);
+	font-weight: normal;
+}
+
+p { margin: 0; padding: 0; }
+
+ul { margin: 0; padding: 0; }
+
+a { text-decoration: none; }
+
+body {
+	margin: 0;
+	background-color: #ced0d8;
+	padding-top: 10px;
+	font-family: 1em Arial, Helvetica, sans-serif;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.to-left {
+	float: left;
+}
+
+.to-right {
+	float: right;
+}
+
+header {
+	border: 1px solid #878486;
+	background-color: #ced0d8;
+	height: 166px;
+	-webkit-box-shadow: 0 0 5px #9f9da1;
+	box-shadow: 0 0 5px #9f9da1;
+}
+
+h4 {
+	text-align: center;
+	margin-bottom: 0;
+	color: #5fa7f3;
+	margin-top: 0;
+}
+
+.head-paragraph {
+	font-family: CGF_Locust_Resistance, Arial;
+	color: #5fa7f3;
+	font-size: 11pt;
+}
+
+.head-paragraph-block {
+	margin-right: 34px;
+	margin-top: 29px;
+	text-shadow: 0 0 0 white, 0em 0em 10px #7ecae3;
+}
+
+.img-logo {
+	vertical-align: 60px;
+	margin-left: 55px;
+	margin-right: 73px;
+}
+
+.menu {
+	background-color: #2b8bdd;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: 1px solid #878486;
+	margin-top: 10px;
+	color: #fff;
+	-webkit-box-shadow: 0 0 5px #9f9da1;
+	box-shadow: 0 0 5px #9f9da1;
+}
+
+.menu a {
+	display: inline-block;
+	margin-left: 12px;
+	margin-right: 12px;
+	color: #fff;
+}
+
+.menu a:first-child {
+	margin-left: 33px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main {
+	margin-top: 7px;
+	font-size: 12pt;
+}
+
+.main-block1 {
+	width: 252px;
+	margin-right: 10px;
+
+	/*background-color: red;*/
+}
+
+.empty-block,
+.blue-bg,
+.inner-block {
+	-webkit-box-shadow: 0 0 5px #9f9da1;
+	box-shadow: 0 0 5px #9f9da1;
+}
+
+.empty-block {
+	height: 5px;
+	background-color: #e3f0fa;
+	border-left: 1px solid #878486;
+	border-top: 1px solid #878486;
+	border-right: 1px solid #878486;
+	
+}
+
+.main-block1 .empty-block {
+	width: 244px;
+}
+
+.main-block1 .inner-block {
+	border-left: 1px solid #878486;
+	border-bottom: 1px solid #878486;
+	border-right: 1px solid #878486;
+}
+
+.main-block1 nav.inner-block {
+	width: 197px;
+	background-color: #e3f0fa;
+	padding-top: 27px;
+	padding-left: 47px;
+	padding-bottom: 61px;
+}
+
+.blue-bg {
+	background-color: #2b8bdd;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	color: #fff;
+	border: 1px solid #878486;
+	border-radius: 3px;
+}
+
+.main-block1 .blue-bg p {
+	padding-left: 76px;
+}
+
+.main-block1 .blue-bg img {
+	padding-right: 4px;
+	padding-top: 7px;
+}
+
+ul a {
+	color: #2b8bdd;
+}
