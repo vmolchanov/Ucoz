@@ -32,37 +32,45 @@
 	</nav>
 
 	<section class="container main clearfix">
-
+		
+		<!-- the first block -->
 		<div class="to-left main-block1">
 			<div class="empty-block inner-block"><!-- Empty block --></div>
 
 			<div class="blue-bg clearfix">
 				<p class="to-left">Навигация</p>
-				<img src="img/pixel_pointer_left.jpg" class="to-right">
+				<img src="img/pixel_pointer_right.jpg" class="to-right">
 			</div>
 
 			<nav class="inner-block">
 				<ul>
-					<a href="#"><li>Главная страница</li></a>
-					<a href="#"><li>Форум</li></a>
-					<a href="#"><li>TOP сайтов</li></a>
-					<a href="#"><li>Реклама на сайте</li></a>
-					<a href="#"><li>Разместить статью</li></a>
-					<a href="#"><li>Купить V.I.P</li></a>
-					<a href="#"><li>Обратная связь</li></a>
+					<li><a href="#">Главная страница</a></li>
+					<li><a href="#">Форум</a></li>
+					<li><a href="#"><span class="upper">top</span> сайтов</a></li>
+					<li><a href="#">Реклама на сайте</a></li>
+					<li><a href="#">Разместить статью</a></li>
+					<li><a href="#">Купить <span class="upper">v.i.p</span></a></li>
+					<li><a href="#">Обратная связь</a></li>
 				</ul>
 			</nav>
 
 		</div>
 
-		<div class="to-left">
-			<div class="empty-block"><!-- Empty block --></div>
-			<div class="blue-bg"><p>Во всех версиях IE найдена опасная "дыра"</p></div>
-			<div class="clearfix">
+		<!-- the second block -->
+		<div class="to-left main-block2">
+			<div class="empty-block inner-block""><!-- Empty block --></div>
+
+			<div class="blue-bg clearfix">
+				<img src="img/pixel_pointer_left.jpg" class="to-left">
+				<p class="to-left">Во всех версиях IE найдена опасная "дыра"</p>
+				<img src="img/pixel_pointer_right.jpg" class="to-right">
+			</div>
+			
+			<div class="inner-block clearfix">
 				<div class="to-left">
-					<img src="#" alt="IE logo">
+					<img src="img/ie_logo.jpg" alt="IE logo">
 					<div>
-						<p>
+						<p class="info-news">
 							Дата добавления: 25.12.2010<br>
 							Автор материала: Aeon<br>
 							Повысить репутацию файла<br>
@@ -73,7 +81,7 @@
 				</div>
 
 				<div class="to-right">
-					<p>
+					<p class="text-news">
 						Специалисты компании Microsoft накануне подтвердили<br>
 						информацию о наличии в браузере Internet Explorer<br>
 						новой критической уязвимости.<br>
@@ -85,57 +93,67 @@
 						вредоносный код. Для захвата контроля над ПК<br>
 						необходимо разместить составленную специальным<br>
 						образом веб-страницу в Интернете и заманить на нее<br>
-						жертву.<br>
+						жертву.
 					</p>
+
+					<p class="go-news"><a href="#">[Перейти к материалу]</a></p>
 				</div>
 			</div>
-			<p>[Перейти к материалу]</p>
 		</div>
 
-		<div class="to-right">
-			<div class="empty-block"><!-- Empty block --></div>
-			<div class="blue-bg"><p>Профиль</p></div>
-			<div>
+		<!-- the third block -->
+		<div class="to-right main-block3">
+			<div class="empty-block inner-block"><!-- Empty block --></div>
+
+			<div class="blue-bg clearfix">
+				<img src="img/pixel_pointer_left.jpg" class="to-left">
+				<p class="to-right">Профиль</p>
+			</div>
+
+			<div class="inner-block">
 				<p>
 					Суббота<br>
 					25.12.2010 14:01
 				</p>
 				<br>
-				<img src="#" alt="No avatar">
+				<img src="img/noavatar.jpg" alt="No avatar">
 				<br>
-				<p>
-					Вы вошли как: Aeon<br>
-					IP адрес: 72.777.777.777<br>
-					Группа: Администратор [?]<br>
-					Вы на сайте: 168 дней
-				</p>
-			</div>
-			<div>
-				<button>Профиль</button>
-				<button>ЛС <span>(1)</span></button>
-				<button>Выход</button>
+				<div>
+					<p>
+						Вы вошли как: Aeon<br>
+						IP адрес: 72.777.777.777<br>
+						Группа: Администратор [?]<br>
+						Вы на сайте: 168 дней
+					</p>
+				</div>
+				
+				<div class="btn">
+					<button value="profile">Профиль</button>
+					<button value="msg">ЛС <span>(1)</span></button>
+					<button value="exit">Выход</button>
+				</div>
 			</div>
 		</div>
 	</section>
 
 	<footer class="container">
-		<section>
-			<p>
+		<section class="statistics clearfix">
+			<p class="to-left">
 				Статистика: Онлайн: Aeon, Briko, Woods [Остальные]
 				Сегодня посетили: Aeon, Briko, Woods, AviatoR [Остальные]
 			</p>
-			<img src="#" alt="ucoz statistics">
+			<img src="img/stat.jpg" alt="ucoz statistics" class="to-right">
 		</section>
 
-		<section>
-			<p>
+		<section class="copyright">
+			<p class="to-left">
 				Все материалы размещенные на сайте пренадлежат их владельцам и предоставляются исключительно в ознакомительных целях.<br>
 				Администрация ответственности за содержание материала не несет и убытки не возмещает.<br>
 				По истечении 24 часов материал должен быть удален с вашего компьютера.<br>
 				Незаконная реализация карается законами РФ и Украины: "Об авторском и смежном праве".<br>
 				При копировании материала, ссылка на сайт обязательна!
 			</p>
-			<img src="" alt="ucoz services">
+			<img src="img/ucoz_services.jpg" alt="ucoz services" class="to-right">
 			<p><span>powered by ucoz</span></p>
 		</section>
 		<p>design by Aeon</p>
